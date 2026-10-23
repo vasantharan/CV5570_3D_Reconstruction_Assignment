@@ -218,9 +218,3 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-
-# COLMAP reconstruction database and generated outputs
-Reconstruction Workspace/database.db
-Reconstruction Workspace/dense/
-Reconstruction Workspace/output/*.ply
-Reconstruction Workspace/output/*.vis
