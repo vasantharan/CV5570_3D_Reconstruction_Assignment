@@ -1,0 +1,28 @@
+COLMAP POINT-CLOUD SCALE AND ROTATION TRANSFORMATION
+Input PLY: D:\CV5570\CV5570_3D_Reconstruction_Assignment\Set 2\dense\0\fused.ply
+Scale factor: 5.183519896688 cm per PLY unit
+Reference width/height: 17.5000 cm / 23.0000 cm
+Chosen width axis: Y
+Chosen height axis: X
+
+Scaling matrix S (4x4):
+[[5.183519896688 0.             0.             0.            ]
+ [0.             5.183519896688 0.             0.            ]
+ [0.             0.             5.183519896688 0.            ]
+ [0.             0.             0.             1.            ]]
+
+X-axis rotation matrix Rx(45 degrees) (4x4):
+[[ 1.              0.              0.              0.            ]
+ [ 0.              0.707106781187 -0.707106781187  0.            ]
+ [ 0.              0.707106781187  0.707106781187  0.            ]
+ [ 0.              0.              0.              1.            ]]
+
+Combined matrix T = Rx @ S (4x4):
+[[ 5.183519896688  0.              0.              0.            ]
+ [ 0.              3.665302069364 -3.665302069364  0.            ]
+ [ 0.              3.665302069364  3.665302069364  0.            ]
+ [ 0.              0.              0.              1.            ]]
+
+Column-vector convention: p_new = T @ [x, y, z, 1]^T.
+Order: uniform scale, then rotate 45 degrees about X around the origin.
+The rotation preserves Euclidean distances. Dimensions in the report are evaluated before rotation.

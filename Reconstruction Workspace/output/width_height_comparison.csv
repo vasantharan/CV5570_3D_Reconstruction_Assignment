@@ -1,0 +1,3 @@
+﻿Dimension,Axis,Actual (cm),Reconstructed (cm),Absolute Error (cm),Error (%),Tolerance (%),Within +/-5%
+Width,Y,17.5,18.02402259045097,0.5240225904509686,2.994414802576963,5.0,YES
+Height,X,23.0,22.581741965584882,0.41825803441511766,1.8185131931092073,5.0,YES

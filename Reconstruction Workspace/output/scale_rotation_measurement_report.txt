@@ -1,0 +1,26 @@
+3D RECONSTRUCTION — SCALE, 45-DEGREE X ROTATION, DIMENSION CHECK
+========================================================================
+
+Image: D:\CV5570\CV5570_3D_Reconstruction_Assignment\Set 2\images\1.jpg
+Input PLY: D:\CV5570\CV5570_3D_Reconstruction_Assignment\Set 2\dense\0\fused.ply
+Points: 1455681
+Known width: 17.500 cm
+Known height: 23.000 cm
+Chosen width axis: Y
+Chosen height axis: X
+Scale factor: 5.183519896688 cm/PLY unit
+
+Reconstructed width: 18.0240 cm; error: 2.994%
+Reconstructed height: 22.5817 cm; error: 1.819%
+Tolerance: +/-5.0%
+Overall result: PASS
+
+A PASS is reported only when both dimension errors are at most 5%.
+The script does not artificially clamp or overwrite errors. If it fails, inspect/crop
+the frame point cloud or improve reconstruction/axis alignment, then rerun.
+
+Combined transformation matrix T:
+[[ 5.183519896688  0.              0.              0.            ]
+ [ 0.              3.665302069364 -3.665302069364  0.            ]
+ [ 0.              3.665302069364  3.665302069364  0.            ]
+ [ 0.              0.              0.              1.            ]]

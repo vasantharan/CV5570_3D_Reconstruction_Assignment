@@ -1,0 +1,2 @@
+﻿camera_id,model,width_px,height_px,colmap_param_1,colmap_param_2,colmap_param_3,colmap_param_4,fx_px,fy_px,cx_px,cy_px
+1,SIMPLE_RADIAL,4000,3000,2819.233007109264,2000.0,1500.0,-0.01326505451636744,2819.233007109264,2819.233007109264,2000.0,1500.0
